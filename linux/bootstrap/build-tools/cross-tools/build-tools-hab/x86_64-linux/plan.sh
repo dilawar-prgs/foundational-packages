@@ -15,8 +15,8 @@ pkg_deps=(
 	core/build-tools-gcc-libs
 )
 pkg_build_deps=(
-	core/native-rust
-	core/native-patchelf
+	core/build-tools-rust
+	core/build-tools-patchelf
 )
 pkg_bin_dirs=(bin)
 
